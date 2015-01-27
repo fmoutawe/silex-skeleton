@@ -1,0 +1,13 @@
+{
+  "debug": true,
+          
+  "twig.path" : "%root_path%/views",
+  "twig.options": {
+        "debug": true,
+        "cache": "%root_path%/app/cache/twig"
+    },
+            
+  "profiler.cache_dir": "%root_path%/app/cache/profiler",
+  
+  "locale_fallback" : "en"
+}
