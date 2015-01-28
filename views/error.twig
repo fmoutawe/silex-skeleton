@@ -1,6 +1,0 @@
-{% extends 'base.twig' %}
-
-{% block content %}
-  <h1 class="h2-like">Page not found</h1>
-  <p>Requested page "{{ path(app.request.attributes.get('_route'), app.request.attributes.get('_route_params')) | slice(1) }}" isn't exist.</p>
-{% endblock %}
